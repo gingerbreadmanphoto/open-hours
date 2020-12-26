@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  open-hours:
+    image: 'gingerdocker/open-hours:interview'
+    ports:
+      - "8090:8090"
